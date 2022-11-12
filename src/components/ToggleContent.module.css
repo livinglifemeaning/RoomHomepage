@@ -1,0 +1,19 @@
+.toggleContainer{
+    display: flex;
+}
+.toggle{
+    background-color: var(--c-black);
+    cursor: pointer; 
+    padding: 1rem 1.5rem; 
+}
+
+.toggle:hover{
+    background-color: var(--c-gray-dark);
+}
+
+.toggle img{
+    width: .8rem; 
+}
+.toggle:active img{
+    scale: .96; 
+}
